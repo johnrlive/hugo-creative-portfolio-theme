@@ -18,6 +18,7 @@ $ mkdir themes
 $ cd themes
 $ git clone https://github.com/johnrlive/hugo-creative-portfolio-theme.git
 $ rm -rf hugo-creative-portfolio-theme/.git
+$ cd .. && sh setup-theme.sh
 ```
 
 For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.

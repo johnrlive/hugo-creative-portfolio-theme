@@ -59,5 +59,5 @@ touch ./themes/$theme/exampleSite/static/.use-root-folder
 
 
 ###### config.toml ######
-rm config.toml 
+mv config.toml config.toml.bak
 cp -i ./themes/$theme/exampleSite/config.toml ./config.toml

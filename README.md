@@ -14,6 +14,8 @@ This Hugo theme was ported from [Bootstrapious](https://bootstrapious.com/p/crea
 Go to the directory where you have your Hugo site and run:
 
 ```
+$ hugo new site [blog_name]
+$ cd [blog_name]
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/johnrlive/hugo-creative-portfolio-theme.git

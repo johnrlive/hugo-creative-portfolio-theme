@@ -54,8 +54,11 @@ mv ./static/ ./static/.backup
 ## === uncomment line below to delete folder
 # rm static/*
 
+
 cp -iR ./themes/$theme/exampleSite/static/* ./static
+cp -iR ./themes/$theme/static/* ./static
 touch ./themes/$theme/exampleSite/static/.use-root-folder
+touch ./themes/$theme/static/.use-root-folder
 
 
 ###### config.toml ######
